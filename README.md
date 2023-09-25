@@ -1,11 +1,12 @@
-# Brakeman add-on for Dradis
+# Vectr add-on for Dradis
 
-[![Build Status](https://secure.travis-ci.org/dradis/dradis-brakeman.png?branch=master)](http://travis-ci.org/dradis/dradis-brakeman) [![Code Climate](https://codeclimate.com/github/dradis/dradis-brakeman.png)](https://codeclimate.com/github/dradis/dradis-brakeman.png)
 
-Upload [Brakeman](http://brakemanscanner.org/) Rails security scanner JSON output into Dradis.
+Upload [Vectr](https://vectr.io/) Purple team frameword output into Dradis.
 
 The add-on requires [Dradis CE](https://dradisframework.com/ce/) > 3.0, or [Dradis Pro](https://dradisframework.com/pro/).
 
+##Usage
+Export Vectr output as a Word file and copy it's tables to an excell, then save it as a CSV file with ";" separation.
 
 ## More information
 
@@ -24,4 +25,4 @@ Dradis Framework and all its components are released under [GNU General Public L
 
 ## Feature requests and bugs
 
-Please use the [Dradis Framework issue tracker](https://github.com/dradis/dradis-ce/issues) for add-on improvements and bug reports.
+Please use the [Dradis Framework issue tracker](https://github.com/jotapikie/dradis-vectr/issues) for add-on improvements and bug reports.
