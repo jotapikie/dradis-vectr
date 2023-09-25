@@ -1,0 +1,2 @@
+Ref #;Phase;Category;Attack Variation;Outcome;Outcome Details;Outcome Notes;Detection / Prevention Tools;Tags
+ACCESS-1;Initial Access;T1078.001;T1078.001 - Valid Accounts: Default Accounts;Blocked;Alert Not Triggered;"Foi conduzido um ataque de password spray.";;

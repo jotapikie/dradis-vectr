@@ -1,0 +1,9 @@
+issue.ref
+issue.phase
+issue.category
+issue.attack_variation
+issue.outcome
+issue.outcome_details
+issue.outcome_notes
+issue.detection_prevention_tools
+issue.tags
