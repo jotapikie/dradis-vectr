@@ -34,7 +34,7 @@ module Dradis::Plugins::Vectr
         # Constructing the issue text using all the fields
         issue_text = <<~TEXT
           #[Ref #]#
-          #{ref}
+          #{attack_variation}
       
           #[Phase]#
           #{phase}
@@ -62,7 +62,7 @@ module Dradis::Plugins::Vectr
         TEXT
       
         # Create an issue for each row in the CSV
-        content_service.create_issue(text: issue_text)
+        content_service.create_issue(text: issue_text, id: attack_variation.hash)
       end
       
 
