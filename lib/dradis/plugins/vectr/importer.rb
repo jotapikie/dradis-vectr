@@ -33,8 +33,11 @@ module Dradis::Plugins::Vectr
       
         # Constructing the issue text using all the fields
         issue_text = <<~TEXT
+          #[Title]#
+          #{Attack Variation}
+          
           #[Ref #]#
-          #{attack_variation}
+          #{ref}
       
           #[Phase]#
           #{phase}
