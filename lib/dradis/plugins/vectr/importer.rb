@@ -65,7 +65,7 @@ module Dradis::Plugins::Vectr
         TEXT
       
         # Create an issue for each row in the CSV
-        content_service.create_issue(text: issue_text, id: attack_variation.hash/100000000)
+        content_service.create_issue(text: issue_text, id: attack_variation.hash.abs % 100000000)
       end
       
 
